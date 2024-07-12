@@ -1,0 +1,423 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*----------------------------Navbar-----------------------------------*/
+
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar{
+  background-image: linear-gradient(to right, rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86));
+  padding: 0 !important;
+}
+
+.dropdown-menu{
+  background-image: linear-gradient(to right, rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+}
+
+.dropdown-item:hover,.dropdown-item:active{
+  color: black !important;
+  background: cyan !important;
+  transition: 1s;
+}
+
+.nav-link:focus{
+  color: white !important;
+}
+
+.navbar-nav li a{
+  color: white;
+}
+
+.navbar-nav>li>a:hover{
+  color: cyan !important;
+  transition: 1s;
+}
+
+.fa-bars{
+  color: white;
+  font-size: 30px !important;
+}
+
+.navbar-toggler{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*---------------------------- Footer -----------------------------------*/
+
+#footer{
+  text-align: center;
+  padding: 3px;
+  background-color: #303030;
+  font-size: 1rem;
+  color: white;
+}
+
+.facebook{
+  color: white;
+}
+
+.facebook:hover{
+  color: dodgerblue !important;
+  transition: 1s;
+}
+
+.instagram{
+  color: white;
+}
+
+.instagram:hover{
+  color: hotpink !important;
+  transition: 1s;
+}
+
+.youtube{
+  color: white;
+}
+
+.youtube:hover{
+  color: red !important;
+  transition: 1s;
+}
+
+#footer a{
+  text-decoration: none;
+}
+
+/*---------------------------- Sekcja tytułowa -----------------------------------*/
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("pages/images/116593.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.text-box{
+  width: 70%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: white;
+}
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover{
+  border: 1px solid cyan;
+  background: cyan;
+  transition: 1s;
+}
+
+/*---------------------------- Więcej -----------------------------------*/
+
+#more{
+  padding: 80px 0;
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+}
+
+.more-img{
+  width: 100px;
+  height: 90px;
+  margin-top: 20px;
+}
+
+.more{
+  padding: 20px;
+  color: white;
+}
+
+.more h2{
+  padding: 5px;
+  margin-top: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.fa-unlock-alt{
+  color: white;
+  font-size: 90px !important;
+  margin-top: 20px;
+}
+
+.fa-map-o{
+  color: white;
+  font-size: 90px !important;
+  margin-top: 20px;
+}
+
+.fa-clock-o{
+  color: white;
+  font-size: 90px !important;
+  margin-top: 20px;
+}
+
+/*---------------------------- Dlaczego my -----------------------------------*/
+
+.text-box-why{
+  text-align: center;
+}
+
+.text-box-why h1{
+  color: white;
+  text-align: right;
+}
+
+.text-box-why p{
+  margin: 20px 0 40px;
+  font-size: 14px;
+  color: white;
+}
+
+.card{
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+}
+
+.card-title{
+  color: white;
+}
+
+.card-text{
+  color: white;
+}
+
+/*---------------------------- contact.html -----------------------------------*/
+
+.contact{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  text-align: center;
+}
+
+.bi-alarm{
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 43px;
+}
+
+.fa-map-marker{
+  color: white;
+  font-size: 90px !important;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.fa-phone{
+  color: white;
+  font-size: 90px !important;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.card-contact{
+  border: cyan 2px solid;
+  padding: 3px;
+  text-align: center;
+}
+
+.card-title-work{
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-title-contact{
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+
+.card-contact p{
+  text-align: center;
+}
+
+#mapa{
+  text-align: center;
+  margin-top: 80px;
+}
+
+/*---------------------------- details.html -----------------------------------*/
+
+.details{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+}
+
+.first-table{
+  color: white;
+}
+
+.table tr{
+  color: white;
+}
+
+.second-table{
+  color: white;
+  margin-top: 80px;
+}
+
+.third-table{
+  color: white;
+  margin-top: 80px;
+}
+
+.fourth-table{
+  color: white;
+  margin-top: 80px;
+}
+
+/*---------------------------- nissangtr.html -----------------------------------*/
+
+.gtr{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+}
+
+.header-gtr{
+  color: white;
+  background-image: url("pages/images/gtr/gtr3.png");
+  height: 356px;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.row{
+  color: white;
+}
+
+.gtr-cennik{
+  color: white;
+  text-align: center;
+}
+
+/*---------------------------- audir8.html -----------------------------------*/
+
+.audir8{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+}
+
+.header-audir8{
+  color: white;
+  background-image: url("pages/images/audi/audi4.png");
+  height: 356px;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.audir8-cennik{
+  color: white;
+  text-align: center;
+}
+
+/*---------------------------- porsche911.html -----------------------------------*/
+
+.p911{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+}
+
+.header-911{
+  color: white;
+  background-image: url("pages/images/911/911three.png");
+  height: 356px;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.p911-cennik{
+  color: white;
+  text-align: center;
+}
+
+/*-------------------------- adminpanel.html -----------------------------------*/
+
+.adminpanel{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  color: white;
+}
+
+#InputAuto{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  color: white;
+}
+
+#InputPaliwo{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  color: white;
+}
+
+#InputMoc{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  color: white;
+}
+
+#InputBiegi{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  color: white;
+}
+
+#InputMiejsca{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  color: white;
+}
+
+#InputSeta{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  color: white;
+}
+
+#InputLimit{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  color: white;
+}
+
+#InputNapęd{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  color: white;
+}
+
+#InputCena1{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  color: white;
+}
+
+#InputCena7{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  color: white;
+}
+
+#InputCena30{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  color: white;
+}
+
+#InputUsluga{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  color: white;
+}
+
+#InputCenaUsl{
+  background-image: linear-gradient(to right,rgba(14.9, 3.9, 37.3, 0.86), rgba(0, 11.4, 27.1, 0.86), rgba(14.9, 3.9, 37.3, 0.86));
+  color: white;
+}
